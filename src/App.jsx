@@ -25,7 +25,8 @@ function App() {
         <div className="col-12">
           <h3 className='mb-3'>Digite o seu CEP</h3>
           <label htmlFor="cep">CEP</label>
-          <input className='form-control mb-5' required maxLength={9} onBlur={getCep} ref={cep} />
+          <input className='form-control' required maxLength={9} onBlur={getCep} ref={cep} />
+          <span className='btn btn-primary mt-2 mb-5'>Enviar</span>
 
           <table className="table">
             <thead>
